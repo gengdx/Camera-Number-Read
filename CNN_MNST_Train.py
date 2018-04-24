@@ -24,6 +24,7 @@ y_test = np_utils.to_categorical(y_test,num_classes=10)
 X_train=X_train/255.
 X_test=X_test/255.
 
+#当以上mnist.load_data()不起作用时是因为天朝Great Wall起作用，采用以下代码或网络上自行搜索方案
 #from tensorflow.examples.tutorials.mnist import input_data  
 #mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)  
 #   
