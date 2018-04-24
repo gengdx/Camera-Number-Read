@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Apr 19 22:23:48 2018
-
+该文件需要训练一个神经网络，该神经网络的输入为28×28的灰度图像，文件位置保存在'G:/CNN Model/Number_NET.h5'
 @author: GengDx
 """
 
@@ -42,7 +42,6 @@ while True:
     """
     图像预处理
     """
-
 
 #   自动阈值二值化    
     TG1=cv2.adaptiveThreshold(b1,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,41,40)
